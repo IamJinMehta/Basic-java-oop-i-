@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Program2
+{ 
+    public static void main(String[] args) 
+    {
+    System.out.println("equation 1:- aX+bY=e");
+    System.out.println("equation 2:- cX+dY=f");
+    Scanner input = new Scanner(System.in);
+    System.out.print("please enter value of a");
+    float a = input.nextFloat();
+    System.out.print("please enter value of b");
+    float b = input.nextFloat();
+    System.out.print("please enter value of c");
+    float c = input.nextFloat();
+    System.out.print("please enter value of d");
+    float d = input.nextFloat();
+    System.out.print("please enter value of e");
+    float e = input.nextFloat();
+    System.out.print("please enter value of f");
+    float f = input.nextFloat();   
+    double det =((a) * (d) - (b) * (c));
+    double x = ((d) * (e) - (b) * (f)) / det;
+    double y = ((a) * (f) - (c) * (e)) / det;
+    System.out.print("x=" + x + " y=" + y); 
+    } 
+} 
