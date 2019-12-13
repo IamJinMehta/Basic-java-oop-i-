@@ -1,5 +1,7 @@
+/*Write a program that reads a number in meters, converts it to feet, and displays the result. */
+
 import java.util.Scanner;
-class converter
+class program3
 {  
    public static void main(String[] args) 
     {
