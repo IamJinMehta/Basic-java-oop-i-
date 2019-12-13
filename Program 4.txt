@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class BMIChecker 
+{  
+   public static void main(String[] args) 
+    {
+    Scanner input = new Scanner(System.in);
+    System.out.println("please enter your weight in pounds");
+    double pound = input.nextDouble();
+    System.out.println("please enter your height in inches");
+    double inche = input.nextDouble();
+    double kg=pound*0.453592;
+    double meter=inche*0.0254;
+    double BMI = kg/(meter*meter);
+    System.out.println("your BMI is" + BMI); 
+    } 
+} 
