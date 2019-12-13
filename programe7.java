@@ -1,4 +1,5 @@
-public class Numberplategenerater 
+/*Assume a vehicle plate number consists of three uppercase letters followed by four digits. Write a program to generate a plate number. */
+public class program7 
 {
 	public static void main(String[] args) {
 
