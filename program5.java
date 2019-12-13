@@ -1,5 +1,7 @@
+/*Write a program that prompts the user to enter three integers and display the integers in decreasing order*/
+
 import java.util.Scanner;
-public class DecOrder
+public class program5
 {
 public static void main(String[] args) {
 Scanner input = new Scanner(System.in);
