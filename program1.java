@@ -1,5 +1,5 @@
 /*Write a Program that displays Welcome to Java, Learning Java Now and Programming is fun*/
-class HelloWorld 
+class program1 
 { 
     public static void main(String args[]) 
     { 
