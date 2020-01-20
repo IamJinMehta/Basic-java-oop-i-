@@ -6,7 +6,7 @@ public class program6
 public static void main(String[] args) {
 Scanner scan = new Scanner(System.in);
 
-System.out.print("Enter three values: ");
+System.out.print("Enter the letter: ");
 char latter = scan.next().charAt(0)
 	;
 if ((latter == 'a')||(latter == 'e')||(latter == 'i')||(latter == 'o')||(latter == 'u'))
